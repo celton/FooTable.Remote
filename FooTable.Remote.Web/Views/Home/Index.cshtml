@@ -1,0 +1,15 @@
+﻿<div class="form-group">
+    <div class="col-xs-12">
+        <button id="btnPesquisar" type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-search"></span>
+            <span class="text-sm-btn">Pesquisar</span>
+        </button>
+    </div>
+    <div class="col-xs-12">
+        <table id="grid" class="table table-hover" data-url="/Home/Consultar/" data-sorting="true" data-sidx="Nome" data-sord="ASC"></table>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/Scripts/Views/Home/index.js"></script>
+}
